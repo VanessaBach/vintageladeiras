@@ -26,6 +26,14 @@ gem "stimulus-rails"
 # Build JSON APIs with ease [https://github.com/rails/jbuilder]
 gem "jbuilder"
 
+# Deals with the same-origin policy (SOP) settings and allows cross-origin requests (Cross-Origin Resource Sharing, CORS).
+gem 'rack-cors', :require => 'rack/cors'
+
+# Allows to start both the Rails server and the React server
+gem 'foreman'
+
+gem 'faker'
+
 # Use Redis adapter to run Action Cable in production
 # gem "redis", ">= 4.0.1"
 

@@ -1,0 +1,14 @@
+{
+  "name": "vintageladeiras",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:VanessaBach/vintageladeiras.git",
+  "author": "VanessaBach <vanessabach.r@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "cd vintageladeiras-react && yarn start",
+    "build": "cd vintageladeiras-react && yarn build",
+    "install": "cd vintageladeiras-react && yarn"
+  }
+}
