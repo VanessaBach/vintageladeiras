@@ -1,6 +1,7 @@
 Rails.application.routes.draw do
   scope '/api/v1' do
     get "fridges", to: "fridges#index"
+    get "images", to: "images#index"
   end
   # Define your application routes per the DSL in https://guides.rubyonrails.org/routing.html
 

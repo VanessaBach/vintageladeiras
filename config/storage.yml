@@ -6,6 +6,10 @@ local:
   service: Disk
   root: <%= Rails.root.join("storage") %>
 
+dropbox:
+  service: Dropbox
+  access_token: "sl.BpDDxGrBl6qU5sCeaeqhA3d2PpPja_p3MqOf-ysWkSSFjIWlMv8gABIDIIHjMCpzP3iqV8r0aaXSFpRPc-Hn3TEuF06j1lbZpiSAbpCnwY5uXAMmbgA7mYhBbpko8QbVcWEJwvFroyiR"
+
 # Use bin/rails credentials:edit to set the AWS secrets (as aws:access_key_id|secret_access_key)
 # amazon:
 #   service: S3

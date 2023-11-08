@@ -30,7 +30,7 @@ gem "jbuilder"
 gem 'rack-cors', :require => 'rack/cors'
 
 # Allows to start both the Rails server and the React server
-gem 'foreman'
+gem 'foreman', '~> 0.87.2'
 
 gem 'faker'
 
@@ -48,6 +48,9 @@ gem "tzinfo-data", platforms: %i[ mswin mswin64 mingw x64_mingw jruby ]
 
 # Reduces boot times through caching; required in config/boot.rb
 gem "bootsnap", require: false
+
+# Connects active storage with dropbox
+gem 'activestorage-dropbox', '~> 2.0'
 
 # Use Active Storage variants [https://guides.rubyonrails.org/active_storage_overview.html#transforming-images]
 # gem "image_processing", "~> 1.2"
